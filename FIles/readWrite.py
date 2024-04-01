@@ -2,7 +2,7 @@ file = open('test.txt')
 # Read all the content of the file
 # print(file.read())
 
-# read n number of characters by passsing parameter
+# read n number of characters by passing parameter
 # print(file.read(7))
 
 # read one single line at a time using readline()
@@ -19,5 +19,5 @@ file = open('test.txt')
 for line in file.readlines():
     print(line)
 
-    
+
 file.close()
