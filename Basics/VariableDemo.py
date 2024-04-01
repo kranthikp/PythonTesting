@@ -65,4 +65,8 @@ dict["lastname"] = "Panda"
 dict["gender"] = "Male"
 print(dict)
 print(dict["lastname"])
+dict["firstname"] = "Kranthi Kumar" #udpate
+print(dict)
 
+del dict["gender"]
+print(dict)
