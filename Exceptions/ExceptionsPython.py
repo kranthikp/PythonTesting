@@ -5,7 +5,7 @@ if ItemsInCart != 2:
     # raise Exception("Product cart count not matching")
     pass
 
-assert(ItemsInCart == 2)
+assert (ItemsInCart == 2)
 
 # try, catch => except
 try:
@@ -22,7 +22,6 @@ try:
 
 except Exception as e:
     print(e)
-
 
 # try, except with finally
 try:

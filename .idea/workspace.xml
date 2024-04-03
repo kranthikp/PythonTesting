@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef4f3fee-355d-4ef3-a92b-5bedcb405b87" name="Changes" comment="Completed Basics&#10;OOPS&#10;String Methods &#10;Read Write operation on Files">
-      <change afterPath="$PROJECT_DIR$/Exceptions/ExceptionsPython.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exceptions/test.txt" afterDir="false" />
+    <list default="true" id="ef4f3fee-355d-4ef3-a92b-5bedcb405b87" name="Changes" comment="Excpetion handling done">
+      <change afterPath="$PROJECT_DIR$/Selenium/SeleniumTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/chromedrivepath.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/chromedriver-win64/LICENSE.chromedriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/chromedriver-win64/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/locators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/locatorsExtension.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/practice website" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FIles/readWrite.py" beforeDir="false" afterPath="$PROJECT_DIR$/FIles/readWrite.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exceptions/ExceptionsPython.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exceptions/ExceptionsPython.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,20 +62,24 @@
     "Python.FirstDemo.executor": "Run",
     "Python.FourthDemo.executor": "Run",
     "Python.Second Demo.executor": "Run",
+    "Python.SeleniumTest.executor": "Run",
     "Python.StringsDemo.executor": "Run",
     "Python.ThridDemo.executor": "Run",
+    "Python.locators.executor": "Run",
+    "Python.locatorsExtension.executor": "Run",
     "Python.main.executor": "Run",
     "Python.readWrite.executor": "Run",
     "Python.write.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/KranthiKumarPanda/PycharmProjects/PythonTesting/Exceptions",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "last_opened_file_path": "C:/Users/KranthiKumarPanda/PycharmProjects/PythonTesting/Selenium",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\KranthiKumarPanda\PycharmProjects\PythonTesting\Selenium" />
       <recent name="C:\Users\KranthiKumarPanda\PycharmProjects\PythonTesting\Exceptions" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -78,29 +87,7 @@
       <recent name="C:\Users\KranthiKumarPanda\PycharmProjects\PythonTesting\Basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ExceptionsPython">
-    <configuration name="ChildImpDemo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonTesting" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOPS" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOPS/ChildImpDemo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.locatorsExtension">
     <configuration name="ExceptionsPython" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonTesting" />
       <option name="ENV_FILES" value="" />
@@ -123,7 +110,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="StringsDemo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="SeleniumTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonTesting" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -132,11 +119,55 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OOPS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Selenium" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOPS/StringsDemo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Selenium/SeleniumTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="locators" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonTesting" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Selenium" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Selenium/locators.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="locatorsExtension" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonTesting" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Selenium" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Selenium/locatorsExtension.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,28 +190,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="readWrite" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonTesting" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FIles" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FIles/readWrite.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -213,11 +222,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.locatorsExtension" />
+        <item itemvalue="Python.locators" />
         <item itemvalue="Python.ExceptionsPython" />
+        <item itemvalue="Python.SeleniumTest" />
         <item itemvalue="Python.write" />
-        <item itemvalue="Python.readWrite" />
-        <item itemvalue="Python.StringsDemo" />
-        <item itemvalue="Python.ChildImpDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -253,12 +262,21 @@
       <option name="project" value="LOCAL" />
       <updated>1711968627064</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Excpetion handling done">
+      <option name="closed" value="true" />
+      <created>1711971774355</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711971774355</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit&#10;Basics Complete" />
     <MESSAGE value="Completed Basics&#10;OOPS&#10;String Methods &#10;Read Write operation on Files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Basics&#10;OOPS&#10;String Methods &#10;Read Write operation on Files" />
+    <MESSAGE value="Excpetion handling done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Excpetion handling done" />
   </component>
 </project>
