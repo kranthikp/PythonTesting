@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef4f3fee-355d-4ef3-a92b-5bedcb405b87" name="Changes" comment="handling alerts and popups">
-      <change afterPath="$PROJECT_DIR$/Selenium/explicitWaitDemo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/waitDemo.py" afterDir="false" />
+    <list default="true" id="ef4f3fee-355d-4ef3-a92b-5bedcb405b87" name="Changes" comment="handling waits - global wait, static wait, implicit &amp; explicit wait">
+      <change afterPath="$PROJECT_DIR$/Selenium/greenKartFunctionalDemo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,6 +60,7 @@
     "Python.ThridDemo.executor": "Run",
     "Python.alerts.executor": "Run",
     "Python.findElementsTest.executor": "Run",
+    "Python.greenKartFunctionalDemo.executor": "Run",
     "Python.locators.executor": "Run",
     "Python.locatorsExtension.executor": "Run",
     "Python.main.executor": "Run",
@@ -85,7 +85,7 @@
       <recent name="C:\Users\KranthiKumarPanda\PycharmProjects\PythonTesting\Basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.waitDemo">
+  <component name="RunManager" selected="Python.greenKartFunctionalDemo">
     <configuration name="alerts" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonTesting" />
       <option name="ENV_FILES" value="" />
@@ -130,7 +130,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="locators" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="greenKartFunctionalDemo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonTesting" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -143,7 +143,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Selenium/locators.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Selenium/greenKartFunctionalDemo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -220,11 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.greenKartFunctionalDemo" />
         <item itemvalue="Python.waitDemo" />
         <item itemvalue="Python.alerts" />
         <item itemvalue="Python.uiControls" />
         <item itemvalue="Python.findElementsTest" />
-        <item itemvalue="Python.locators" />
       </list>
     </recent_temporary>
   </component>
@@ -292,7 +292,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712212461966</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="handling waits - global wait, static wait, implicit &amp; explicit wait">
+      <option name="closed" value="true" />
+      <created>1712217343641</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1712217343641</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -302,6 +310,7 @@
     <MESSAGE value="finding elements and using locator strategy" />
     <MESSAGE value="handling static and dynamic dropdowns" />
     <MESSAGE value="handling alerts and popups" />
-    <option name="LAST_COMMIT_MESSAGE" value="handling alerts and popups" />
+    <MESSAGE value="handling waits - global wait, static wait, implicit &amp; explicit wait" />
+    <option name="LAST_COMMIT_MESSAGE" value="handling waits - global wait, static wait, implicit &amp; explicit wait" />
   </component>
 </project>
