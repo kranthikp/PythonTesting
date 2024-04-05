@@ -2,6 +2,7 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions
+from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.wait import WebDriverWait
 
 # launch browser
@@ -10,8 +11,9 @@ driver = webdriver.Chrome()
 # implicit wait
 driver.implicitly_wait(5)
 
+url = "https://rahulshettyacademy.com/seleniumPractise/#/"
 # launch url - Green Kart Website
-driver.get("https://rahulshettyacademy.com/seleniumPractise/#/")
+driver.get(url)
 
 # find search bar and enter "ber"
 driver.find_element(By.CSS_SELECTOR, ".search-keyword").send_keys("ber")
@@ -44,12 +46,13 @@ driver.find_element(By.XPATH, "//button[text()='PROCEED TO CHECKOUT']").click()
 prices = driver.find_elements(By.CSS_SELECTOR, "td:nth-child(5) p")
 Sum = 0
 for price in prices:
+    print(price.text)
     Sum = Sum + int(price.text)
 
 # print Sum & totalAmount
-print(Sum)
+print("Sum {}".format(Sum))
 totalAmount = driver.find_element(By.CSS_SELECTOR, ".totAmt").text
-print(totalAmount)
+print("totalAmount "+totalAmount)
 
 # validate total sum & amount
 assert Sum == int(totalAmount)
@@ -69,7 +72,29 @@ discountedAmount = float(driver.find_element(By.CSS_SELECTOR, ".discountAmt").te
 # validate totalAmount > discountedAmount
 assert float(totalAmount) > discountedAmount
 
+# click place order
+driver.find_element(By.XPATH, "//button[text()='Place Order']").click()
 
+# assert Choose Country Label on page
+driver.find_element(By.XPATH, "//label[text()='Choose Country']").is_displayed()
 
+# select India from dropdown
+country_dropdown = Select(driver.find_element(By.TAG_NAME, "select"))
+country_dropdown.select_by_value("India")
+time.sleep(2)
 
+# check Agree Checkbox
+driver.find_element(By.CLASS_NAME, "chkAgree").click()
+
+# click Proceed
+driver.find_element(By.XPATH, "//button[text()='Proceed']").click()
+
+# validate "brand greenLogo" is displayed
+wait.until(expected_conditions.presence_of_element_located((By.XPATH, "//div[@class='brand greenLogo']")))
+driver.find_element(By.CSS_SELECTOR, "div[class='brand greenLogo']").is_displayed()
+
+# validate navigated back to home
+current_url = driver.current_url
+assert url in current_url
+print(current_url)
 

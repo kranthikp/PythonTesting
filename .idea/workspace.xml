@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef4f3fee-355d-4ef3-a92b-5bedcb405b87" name="Changes" comment="Functional Automation Sample assertions, waits, handling values get attributes,locators  validations">
+    <list default="true" id="ef4f3fee-355d-4ef3-a92b-5bedcb405b87" name="Changes" comment="added comments">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Selenium/greenKartFunctionalDemo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium/greenKartFunctionalDemo.py" afterDir="false" />
     </list>
@@ -221,8 +221,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.greenKartFunctionalDemo" />
-        <item itemvalue="Python.waitDemo" />
         <item itemvalue="Python.alerts" />
+        <item itemvalue="Python.waitDemo" />
         <item itemvalue="Python.uiControls" />
         <item itemvalue="Python.findElementsTest" />
       </list>
@@ -308,7 +308,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712256157388</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added comments">
+      <option name="closed" value="true" />
+      <created>1712292656620</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1712292656620</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -320,6 +328,7 @@
     <MESSAGE value="handling alerts and popups" />
     <MESSAGE value="handling waits - global wait, static wait, implicit &amp; explicit wait" />
     <MESSAGE value="Functional Automation Sample assertions, waits, handling values get attributes,locators  validations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Functional Automation Sample assertions, waits, handling values get attributes,locators  validations" />
+    <MESSAGE value="added comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="added comments" />
   </component>
 </project>
