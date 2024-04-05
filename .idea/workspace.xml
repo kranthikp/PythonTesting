@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef4f3fee-355d-4ef3-a92b-5bedcb405b87" name="Changes" comment="added comments">
+    <list default="true" id="ef4f3fee-355d-4ef3-a92b-5bedcb405b87" name="Changes" comment="added three new test steps">
+      <change afterPath="$PROJECT_DIR$/Selenium/actionDemo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/assignement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/childWindow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/framesDemo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Selenium/greenKartFunctionalDemo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium/greenKartFunctionalDemo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,35 +49,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.04_FunctionsDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.05_OOPSDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ChildImpDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ExceptionsPython.executor&quot;: &quot;Run&quot;,
-    &quot;Python.FirstDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.FourthDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Second Demo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.SeleniumTest.executor&quot;: &quot;Run&quot;,
-    &quot;Python.StringsDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ThridDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.alerts.executor&quot;: &quot;Run&quot;,
-    &quot;Python.findElementsTest.executor&quot;: &quot;Run&quot;,
-    &quot;Python.greenKartFunctionalDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.locators.executor&quot;: &quot;Run&quot;,
-    &quot;Python.locatorsExtension.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.readWrite.executor&quot;: &quot;Run&quot;,
-    &quot;Python.uiControls.executor&quot;: &quot;Run&quot;,
-    &quot;Python.waitDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.write.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/KranthiKumarPanda/PycharmProjects/PythonTesting/Selenium&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.04_FunctionsDemo.executor": "Run",
+    "Python.05_OOPSDemo.executor": "Run",
+    "Python.ChildImpDemo.executor": "Run",
+    "Python.ExceptionsPython.executor": "Run",
+    "Python.FirstDemo.executor": "Run",
+    "Python.FourthDemo.executor": "Run",
+    "Python.Second Demo.executor": "Run",
+    "Python.SeleniumTest.executor": "Run",
+    "Python.StringsDemo.executor": "Run",
+    "Python.ThridDemo.executor": "Run",
+    "Python.actionDemo.executor": "Run",
+    "Python.alerts.executor": "Run",
+    "Python.assignement.executor": "Run",
+    "Python.childWindow.executor": "Run",
+    "Python.findElementsTest.executor": "Run",
+    "Python.framesDemo.executor": "Run",
+    "Python.greenKartFunctionalDemo.executor": "Run",
+    "Python.locators.executor": "Run",
+    "Python.locatorsExtension.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.readWrite.executor": "Run",
+    "Python.uiControls.executor": "Run",
+    "Python.waitDemo.executor": "Run",
+    "Python.write.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/KranthiKumarPanda/PycharmProjects/PythonTesting/Selenium",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\KranthiKumarPanda\PycharmProjects\PythonTesting\Selenium" />
@@ -85,8 +92,8 @@
       <recent name="C:\Users\KranthiKumarPanda\PycharmProjects\PythonTesting\Basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.greenKartFunctionalDemo">
-    <configuration name="alerts" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.framesDemo">
+    <configuration name="actionDemo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonTesting" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -99,7 +106,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Selenium/alerts.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Selenium/actionDemo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -108,7 +115,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="findElementsTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="assignement" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonTesting" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,7 +128,51 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Selenium/findElementsTest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Selenium/assignement.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="childWindow" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonTesting" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Selenium" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Selenium/childWindow.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="framesDemo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonTesting" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Selenium" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Selenium/framesDemo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -174,57 +225,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="uiControls" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonTesting" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Selenium" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Selenium/uiControls.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="waitDemo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonTesting" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Selenium" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Selenium/waitDemo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.framesDemo" />
+        <item itemvalue="Python.assignement" />
+        <item itemvalue="Python.childWindow" />
+        <item itemvalue="Python.actionDemo" />
         <item itemvalue="Python.greenKartFunctionalDemo" />
-        <item itemvalue="Python.alerts" />
-        <item itemvalue="Python.waitDemo" />
-        <item itemvalue="Python.uiControls" />
-        <item itemvalue="Python.findElementsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -316,7 +323,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712292656620</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added three new test steps">
+      <option name="closed" value="true" />
+      <created>1712324260845</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1712324260845</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -329,6 +344,7 @@
     <MESSAGE value="handling waits - global wait, static wait, implicit &amp; explicit wait" />
     <MESSAGE value="Functional Automation Sample assertions, waits, handling values get attributes,locators  validations" />
     <MESSAGE value="added comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="added comments" />
+    <MESSAGE value="added three new test steps" />
+    <option name="LAST_COMMIT_MESSAGE" value="added three new test steps" />
   </component>
 </project>
