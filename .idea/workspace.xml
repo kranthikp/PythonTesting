@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef4f3fee-355d-4ef3-a92b-5bedcb405b87" name="Changes" comment="handling waits - global wait, static wait, implicit &amp; explicit wait">
-      <change afterPath="$PROJECT_DIR$/Selenium/greenKartFunctionalDemo.py" afterDir="false" />
+    <list default="true" id="ef4f3fee-355d-4ef3-a92b-5bedcb405b87" name="Changes" comment="Functional Automation Sample assertions, waits, handling values get attributes,locators  validations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium/greenKartFunctionalDemo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium/greenKartFunctionalDemo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,35 +46,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.04_FunctionsDemo.executor": "Run",
-    "Python.05_OOPSDemo.executor": "Run",
-    "Python.ChildImpDemo.executor": "Run",
-    "Python.ExceptionsPython.executor": "Run",
-    "Python.FirstDemo.executor": "Run",
-    "Python.FourthDemo.executor": "Run",
-    "Python.Second Demo.executor": "Run",
-    "Python.SeleniumTest.executor": "Run",
-    "Python.StringsDemo.executor": "Run",
-    "Python.ThridDemo.executor": "Run",
-    "Python.alerts.executor": "Run",
-    "Python.findElementsTest.executor": "Run",
-    "Python.greenKartFunctionalDemo.executor": "Run",
-    "Python.locators.executor": "Run",
-    "Python.locatorsExtension.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.readWrite.executor": "Run",
-    "Python.uiControls.executor": "Run",
-    "Python.waitDemo.executor": "Run",
-    "Python.write.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/KranthiKumarPanda/PycharmProjects/PythonTesting/Selenium",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.04_FunctionsDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05_OOPSDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ChildImpDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ExceptionsPython.executor&quot;: &quot;Run&quot;,
+    &quot;Python.FirstDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.FourthDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Second Demo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SeleniumTest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.StringsDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ThridDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.alerts.executor&quot;: &quot;Run&quot;,
+    &quot;Python.findElementsTest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.greenKartFunctionalDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.locators.executor&quot;: &quot;Run&quot;,
+    &quot;Python.locatorsExtension.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.readWrite.executor&quot;: &quot;Run&quot;,
+    &quot;Python.uiControls.executor&quot;: &quot;Run&quot;,
+    &quot;Python.waitDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.write.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/KranthiKumarPanda/PycharmProjects/PythonTesting/Selenium&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\KranthiKumarPanda\PycharmProjects\PythonTesting\Selenium" />
@@ -300,7 +300,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712217343641</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Functional Automation Sample assertions, waits, handling values get attributes,locators  validations">
+      <option name="closed" value="true" />
+      <created>1712256157388</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1712256157388</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -311,6 +319,7 @@
     <MESSAGE value="handling static and dynamic dropdowns" />
     <MESSAGE value="handling alerts and popups" />
     <MESSAGE value="handling waits - global wait, static wait, implicit &amp; explicit wait" />
-    <option name="LAST_COMMIT_MESSAGE" value="handling waits - global wait, static wait, implicit &amp; explicit wait" />
+    <MESSAGE value="Functional Automation Sample assertions, waits, handling values get attributes,locators  validations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Functional Automation Sample assertions, waits, handling values get attributes,locators  validations" />
   </component>
 </project>
