@@ -8,6 +8,8 @@ from selenium.webdriver.common.by import By
 driver = webdriver.Chrome()
 driver.implicitly_wait(5)
 driver.maximize_window()
+
+# launch url
 driver.get("https://rahulshettyacademy.com/AutomationPractice/")
 
 # action class for mouse actions

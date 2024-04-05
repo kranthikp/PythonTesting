@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef4f3fee-355d-4ef3-a92b-5bedcb405b87" name="Changes" comment="added three new test steps">
-      <change afterPath="$PROJECT_DIR$/Selenium/actionDemo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/assignement.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/childWindow.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/framesDemo.py" afterDir="false" />
+    <list default="true" id="ef4f3fee-355d-4ef3-a92b-5bedcb405b87" name="Changes" comment="handling windows, mouse actions&#10;and iframes with complete full assignment">
+      <change afterPath="$PROJECT_DIR$/Selenium/chromeOptionsDemo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/miscellanous.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/screen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium/sorting_tables.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium/actionDemo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium/actionDemo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,13 +66,16 @@
     "Python.alerts.executor": "Run",
     "Python.assignement.executor": "Run",
     "Python.childWindow.executor": "Run",
+    "Python.chromeOptionsDemo.executor": "Run",
     "Python.findElementsTest.executor": "Run",
     "Python.framesDemo.executor": "Run",
     "Python.greenKartFunctionalDemo.executor": "Run",
     "Python.locators.executor": "Run",
     "Python.locatorsExtension.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.miscellanous.executor": "Run",
     "Python.readWrite.executor": "Run",
+    "Python.sorting_tables.executor": "Run",
     "Python.uiControls.executor": "Run",
     "Python.waitDemo.executor": "Run",
     "Python.write.executor": "Run",
@@ -92,29 +96,7 @@
       <recent name="C:\Users\KranthiKumarPanda\PycharmProjects\PythonTesting\Basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.framesDemo">
-    <configuration name="actionDemo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonTesting" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Selenium" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Selenium/actionDemo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.chromeOptionsDemo">
     <configuration name="assignement" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonTesting" />
       <option name="ENV_FILES" value="" />
@@ -137,7 +119,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="childWindow" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="chromeOptionsDemo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonTesting" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -150,7 +132,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Selenium/childWindow.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Selenium/chromeOptionsDemo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -181,28 +163,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="greenKartFunctionalDemo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonTesting" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Selenium" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Selenium/greenKartFunctionalDemo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="PythonTesting" />
       <option name="ENV_FILES" value="" />
@@ -225,13 +185,57 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="miscellanous" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonTesting" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Selenium" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Selenium/miscellanous.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sorting_tables" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonTesting" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Selenium" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Selenium/sorting_tables.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.chromeOptionsDemo" />
+        <item itemvalue="Python.sorting_tables" />
+        <item itemvalue="Python.miscellanous" />
         <item itemvalue="Python.framesDemo" />
         <item itemvalue="Python.assignement" />
-        <item itemvalue="Python.childWindow" />
-        <item itemvalue="Python.actionDemo" />
-        <item itemvalue="Python.greenKartFunctionalDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -331,7 +335,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712324260845</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="handling windows, mouse actions&#10;and iframes with complete full assignment">
+      <option name="closed" value="true" />
+      <created>1712330565674</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1712330565674</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -345,6 +357,7 @@
     <MESSAGE value="Functional Automation Sample assertions, waits, handling values get attributes,locators  validations" />
     <MESSAGE value="added comments" />
     <MESSAGE value="added three new test steps" />
-    <option name="LAST_COMMIT_MESSAGE" value="added three new test steps" />
+    <MESSAGE value="handling windows, mouse actions&#10;and iframes with complete full assignment" />
+    <option name="LAST_COMMIT_MESSAGE" value="handling windows, mouse actions&#10;and iframes with complete full assignment" />
   </component>
 </project>
