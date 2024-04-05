@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef4f3fee-355d-4ef3-a92b-5bedcb405b87" name="Changes" comment="Miscellaneous: Handling Javascript Executor, &#10;Handling Web Tables - sorting, assertions &amp; debug mode&#10;Chrome Options &quot;--headless&quot; &quot;--disable-gpu&quot; &quot;--ignore-certificate-errors&quot; &quot;--start-maximized&quot;">
-      <change afterPath="$PROJECT_DIR$/Selenium/e2eTest.py" afterDir="false" />
+    <list default="true" id="ef4f3fee-355d-4ef3-a92b-5bedcb405b87" name="Changes" comment="e2e test case for ecommerce page&#10;url &quot;https://rahulshettyacademy.com/angularpractice/&quot;&#10;click shop&#10;search a product name - blackberry,&#10;add to cart&#10;checkout&#10;search country and select India&#10;Purchase and assert Success">
+      <change afterPath="$PROJECT_DIR$/pytestsDemo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytestsDemo/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytestsDemo/test_demo1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytestsDemo/test_demo2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytestsDemo/test_fixtureData.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytestsDemo/test_fixtureDemo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +53,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for test_demo1.test_crossBrowser.executor": "Run",
+    "Python tests.Python tests for test_demo1.test_firstProgram.executor": "Run",
+    "Python tests.Python tests for test_demo1.test_fixtureDemo.executor": "Run",
+    "Python tests.Python tests for test_demo1.test_secondProgram.executor": "Run",
+    "Python tests.Python tests for test_fixtureData.TestExample2.executor": "Run",
+    "Python tests.Python tests for test_fixtureDemo.TestExample.executor": "Run",
+    "Python tests.Python tests for test_fixtureDemo.TestExample.test_fixtureDemo3.executor": "Run",
+    "Python tests.Python tests for test_fixtureDemo.TestExample2.executor": "Run",
+    "Python tests.Python tests in test_demo1.py.executor": "Run",
+    "Python tests.Python tests in test_demo2.py.executor": "Run",
+    "Python tests.Python tests in test_fixtureDemo.py.executor": "Run",
     "Python.04_FunctionsDemo.executor": "Run",
     "Python.05_OOPSDemo.executor": "Run",
     "Python.ChildImpDemo.executor": "Run",
@@ -93,73 +109,7 @@
       <recent name="C:\Users\KranthiKumarPanda\PycharmProjects\PythonTesting\Basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.e2eTest">
-    <configuration name="chromeOptionsDemo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonTesting" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Selenium" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Selenium/chromeOptionsDemo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="e2eTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonTesting" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Selenium" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Selenium/e2eTest.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="framesDemo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonTesting" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Selenium" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Selenium/framesDemo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Python tests in test_demo2.py">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="PythonTesting" />
       <option name="ENV_FILES" value="" />
@@ -182,57 +132,88 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="miscellanous" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_demo1.test_crossBrowser" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PythonTesting" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Selenium" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytestsDemo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Selenium/miscellanous.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_demo1.test_crossBrowser&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="sorting_tables" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_demo1.test_secondProgram" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PythonTesting" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Selenium" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytestsDemo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Selenium/sorting_tables.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_demo1.test_secondProgram&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_fixtureData.TestExample2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PythonTesting" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytestsDemo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_fixtureData.TestExample2&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_demo1.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PythonTesting" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytestsDemo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/pytestsDemo/test_demo1.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_demo2.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PythonTesting" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytestsDemo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/pytestsDemo/test_demo2.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.e2eTest" />
-        <item itemvalue="Python.chromeOptionsDemo" />
-        <item itemvalue="Python.sorting_tables" />
-        <item itemvalue="Python.miscellanous" />
-        <item itemvalue="Python.framesDemo" />
+        <item itemvalue="Python tests.Python tests in test_demo2.py" />
+        <item itemvalue="Python tests.Python tests for test_fixtureData.TestExample2" />
+        <item itemvalue="Python tests.Python tests for test_demo1.test_crossBrowser" />
+        <item itemvalue="Python tests.Python tests for test_demo1.test_secondProgram" />
+        <item itemvalue="Python tests.Python tests in test_demo1.py" />
       </list>
     </recent_temporary>
   </component>
@@ -348,7 +329,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712334212450</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="e2e test case for ecommerce page&#10;url &quot;https://rahulshettyacademy.com/angularpractice/&quot;&#10;click shop&#10;search a product name - blackberry,&#10;add to cart&#10;checkout&#10;search country and select India&#10;Purchase and assert Success">
+      <option name="closed" value="true" />
+      <created>1712337485362</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1712337485362</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -364,6 +353,7 @@
     <MESSAGE value="added three new test steps" />
     <MESSAGE value="handling windows, mouse actions&#10;and iframes with complete full assignment" />
     <MESSAGE value="Miscellaneous: Handling Javascript Executor, &#10;Handling Web Tables - sorting, assertions &amp; debug mode&#10;Chrome Options &quot;--headless&quot; &quot;--disable-gpu&quot; &quot;--ignore-certificate-errors&quot; &quot;--start-maximized&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Miscellaneous: Handling Javascript Executor, &#10;Handling Web Tables - sorting, assertions &amp; debug mode&#10;Chrome Options &quot;--headless&quot; &quot;--disable-gpu&quot; &quot;--ignore-certificate-errors&quot; &quot;--start-maximized&quot;" />
+    <MESSAGE value="e2e test case for ecommerce page&#10;url &quot;https://rahulshettyacademy.com/angularpractice/&quot;&#10;click shop&#10;search a product name - blackberry,&#10;add to cart&#10;checkout&#10;search country and select India&#10;Purchase and assert Success" />
+    <option name="LAST_COMMIT_MESSAGE" value="e2e test case for ecommerce page&#10;url &quot;https://rahulshettyacademy.com/angularpractice/&quot;&#10;click shop&#10;search a product name - blackberry,&#10;add to cart&#10;checkout&#10;search country and select India&#10;Purchase and assert Success" />
   </component>
 </project>
