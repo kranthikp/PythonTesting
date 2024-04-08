@@ -1,0 +1,48 @@
+2024-04-08 13:08:54,343 :DEBUG : pytestsDemo.test_logging :A debug statement is executed
+2024-04-08 13:08:54,343 :INFO : pytestsDemo.test_logging :Information statement
+2024-04-08 13:08:54,343 :DEBUG : pytestsDemo.test_logging :A debug statement is executed
+2024-04-08 13:08:54,343 :WARNING : pytestsDemo.test_logging :Something is in warning mode
+2024-04-08 13:08:54,343 :ERROR : pytestsDemo.test_logging :A Major error has happend
+2024-04-08 13:08:54,343 :CRITICAL : pytestsDemo.test_logging :Critical issue
+2024-04-08 13:15:23,258 :DEBUG : pytestsDemo.test_logging :A debug statement is executed
+2024-04-08 13:15:23,258 :INFO : pytestsDemo.test_logging :Information statement
+2024-04-08 13:15:23,258 :DEBUG : pytestsDemo.test_logging :A debug statement is executed
+2024-04-08 13:15:23,260 :WARNING : pytestsDemo.test_logging :Something is in warning mode
+2024-04-08 13:15:23,260 :ERROR : pytestsDemo.test_logging :A Major error has happend
+2024-04-08 13:15:23,260 :CRITICAL : pytestsDemo.test_logging :Critical issue
+2024-04-08 13:18:46,326 :DEBUG : pytestsDemo.test_logging :A debug statement is executed
+2024-04-08 13:18:46,327 :INFO : pytestsDemo.test_logging :Information statement
+2024-04-08 13:18:46,327 :DEBUG : pytestsDemo.test_logging :A debug statement is executed
+2024-04-08 13:18:46,327 :WARNING : pytestsDemo.test_logging :Something is in warning mode
+2024-04-08 13:18:46,327 :ERROR : pytestsDemo.test_logging :A Major error has happend
+2024-04-08 13:18:46,327 :CRITICAL : pytestsDemo.test_logging :Critical issue
+2024-04-08 13:20:14,007 :DEBUG : pytestsDemo.test_logging :A debug statement is executed
+2024-04-08 13:20:14,008 :INFO : pytestsDemo.test_logging :Information statement
+2024-04-08 13:20:14,008 :DEBUG : pytestsDemo.test_logging :A debug statement is executed
+2024-04-08 13:20:14,008 :WARNING : pytestsDemo.test_logging :Something is in warning mode
+2024-04-08 13:20:14,008 :ERROR : pytestsDemo.test_logging :A Major error has happend
+2024-04-08 13:20:14,008 :CRITICAL : pytestsDemo.test_logging :Critical issue
+2024-04-08 18:36:06,485 :INFO : test_editProfile :panda
+2024-04-08 18:36:06,485 :INFO : test_editProfile :automatepanda.com
+2024-04-08 18:36:06,490 :DEBUG : pytestsDemo.test_logging :A debug statement is executed
+2024-04-08 18:36:06,490 :INFO : pytestsDemo.test_logging :Information statement
+2024-04-08 18:36:06,490 :DEBUG : pytestsDemo.test_logging :A debug statement is executed
+2024-04-08 18:36:06,490 :WARNING : pytestsDemo.test_logging :Something is in warning mode
+2024-04-08 18:36:06,490 :ERROR : pytestsDemo.test_logging :A Major error has happend
+2024-04-08 18:36:06,490 :CRITICAL : pytestsDemo.test_logging :Critical issue
+2024-04-08 18:38:09,761 :INFO : test_editProfile :panda
+2024-04-08 18:38:09,761 :INFO : test_editProfile :automatepanda.com
+2024-04-08 18:38:09,770 :DEBUG : pytestsDemo.test_logging :A debug statement is executed
+2024-04-08 18:38:09,770 :INFO : pytestsDemo.test_logging :Information statement
+2024-04-08 18:38:09,770 :DEBUG : pytestsDemo.test_logging :A debug statement is executed
+2024-04-08 18:38:09,770 :WARNING : pytestsDemo.test_logging :Something is in warning mode
+2024-04-08 18:38:09,770 :ERROR : pytestsDemo.test_logging :A Major error has happend
+2024-04-08 18:38:09,770 :CRITICAL : pytestsDemo.test_logging :Critical issue
+2024-04-08 18:39:28,261 :INFO : test_editProfile :panda
+2024-04-08 18:39:28,261 :INFO : test_editProfile :automatepanda.com
+2024-04-08 18:39:28,266 :DEBUG : pytestsDemo.test_logging :A debug statement is executed
+2024-04-08 18:39:28,266 :INFO : pytestsDemo.test_logging :Information statement
+2024-04-08 18:39:28,268 :DEBUG : pytestsDemo.test_logging :A debug statement is executed
+2024-04-08 18:39:28,268 :WARNING : pytestsDemo.test_logging :Something is in warning mode
+2024-04-08 18:39:28,268 :ERROR : pytestsDemo.test_logging :A Major error has happend
+2024-04-08 18:39:28,268 :CRITICAL : pytestsDemo.test_logging :Critical issue
