@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef4f3fee-355d-4ef3-a92b-5bedcb405b87" name="Changes" comment="Completed&#10;Pytest and its advantages&#10;-Running Pytests from Terminal with different command flags&#10;-run selected Pytests from set of Tests&#10;-Grouping tests with pytest marks to run selected group&#10;What are fixtures and their importance in pytest framework&#10;-Importance of Conftest file &amp; Scope of fixtures for building Generic fixtures&#10;-Introduction to Data driven Fixtures to load data into tests&#10;-Parameterizing test with multiple data sets using Fixtures&#10;-Generating HTML reports for Pytest Testcases">
-      <change afterPath="$PROJECT_DIR$/assets/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfile.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytestsDemo/BaseClass.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytestsDemo/test_logging.py" afterDir="false" />
+    <list default="true" id="ef4f3fee-355d-4ef3-a92b-5bedcb405b87" name="Changes" comment="Completed creating logger class and implement inheritance -&gt; DRY principle to reuse&#10;logs in html report and correct logname called in getLogger">
+      <change afterPath="$PROJECT_DIR$/Selenium/upload.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestsDemo/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestsDemo/test_fixtureData.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytestsDemo/test_fixtureData.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,68 +51,72 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python tests.Python tests for test_demo1.test_crossBrowser.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_demo1.test_firstProgram.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_demo1.test_fixtureDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_demo1.test_secondProgram.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_fixtureData.TestExample2.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_fixtureDemo.TestExample.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_fixtureDemo.TestExample.test_fixtureDemo3.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_fixtureDemo.TestExample2.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_logging.test_loggingDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_demo1.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_demo2.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_fixtureDemo.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_logging.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.04_FunctionsDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.05_OOPSDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ChildImpDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ExceptionsPython.executor&quot;: &quot;Run&quot;,
-    &quot;Python.FirstDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.FourthDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Second Demo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.SeleniumTest.executor&quot;: &quot;Run&quot;,
-    &quot;Python.StringsDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ThridDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.actionDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.alerts.executor&quot;: &quot;Run&quot;,
-    &quot;Python.assignement.executor&quot;: &quot;Run&quot;,
-    &quot;Python.childWindow.executor&quot;: &quot;Run&quot;,
-    &quot;Python.chromeOptionsDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.e2eTest.executor&quot;: &quot;Run&quot;,
-    &quot;Python.findElementsTest.executor&quot;: &quot;Run&quot;,
-    &quot;Python.framesDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.greenKartFunctionalDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.locators.executor&quot;: &quot;Run&quot;,
-    &quot;Python.locatorsExtension.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.miscellanous.executor&quot;: &quot;Run&quot;,
-    &quot;Python.readWrite.executor&quot;: &quot;Run&quot;,
-    &quot;Python.sorting_tables.executor&quot;: &quot;Run&quot;,
-    &quot;Python.uiControls.executor&quot;: &quot;Run&quot;,
-    &quot;Python.waitDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.write.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/KranthiKumarPanda/PycharmProjects/PythonTesting/Selenium&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python tests.Python tests for test_demo1.test_crossBrowser.executor": "Run",
+    "Python tests.Python tests for test_demo1.test_firstProgram.executor": "Run",
+    "Python tests.Python tests for test_demo1.test_fixtureDemo.executor": "Run",
+    "Python tests.Python tests for test_demo1.test_secondProgram.executor": "Run",
+    "Python tests.Python tests for test_fixtureData.TestExample2.executor": "Run",
+    "Python tests.Python tests for test_fixtureDemo.TestExample.executor": "Run",
+    "Python tests.Python tests for test_fixtureDemo.TestExample.test_fixtureDemo3.executor": "Run",
+    "Python tests.Python tests for test_fixtureDemo.TestExample2.executor": "Run",
+    "Python tests.Python tests for test_logging.test_loggingDemo.executor": "Run",
+    "Python tests.Python tests in test_demo1.py.executor": "Run",
+    "Python tests.Python tests in test_demo2.py.executor": "Run",
+    "Python tests.Python tests in test_fixtureDemo.py.executor": "Run",
+    "Python tests.Python tests in test_logging.py.executor": "Run",
+    "Python.04_FunctionsDemo.executor": "Run",
+    "Python.05_OOPSDemo.executor": "Run",
+    "Python.ChildImpDemo.executor": "Run",
+    "Python.ExceptionsPython.executor": "Run",
+    "Python.FirstDemo.executor": "Run",
+    "Python.FourthDemo.executor": "Run",
+    "Python.Second Demo.executor": "Run",
+    "Python.SeleniumTest.executor": "Run",
+    "Python.StringsDemo.executor": "Run",
+    "Python.ThridDemo.executor": "Run",
+    "Python.actionDemo.executor": "Run",
+    "Python.alerts.executor": "Run",
+    "Python.assignement.executor": "Run",
+    "Python.childWindow.executor": "Run",
+    "Python.chromeOptionsDemo.executor": "Run",
+    "Python.e2eTest.executor": "Run",
+    "Python.findElementsTest.executor": "Run",
+    "Python.framesDemo.executor": "Run",
+    "Python.greenKartFunctionalDemo.executor": "Run",
+    "Python.locators.executor": "Run",
+    "Python.locatorsExtension.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.miscellanous.executor": "Run",
+    "Python.readWrite.executor": "Run",
+    "Python.sorting_tables.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.uiControls.executor": "Run",
+    "Python.upload (1).executor": "Run",
+    "Python.upload.executor": "Run",
+    "Python.waitDemo.executor": "Run",
+    "Python.write.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/KranthiKumarPanda/PycharmProjects/PythonTesting/Selenium",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\KranthiKumarPanda\PycharmProjects\PythonTesting\Selenium" />
       <recent name="C:\Users\KranthiKumarPanda\PycharmProjects\PythonTesting\Exceptions" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\KranthiKumarPanda\PycharmProjects\PythonTesting\Selenium" />
       <recent name="C:\Users\KranthiKumarPanda\PycharmProjects\PythonTesting\OOPS" />
       <recent name="C:\Users\KranthiKumarPanda\PycharmProjects\PythonTesting\Basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_fixtureData.TestExample2">
+  <component name="RunManager" selected="Python.upload (1)">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="PythonTesting" />
       <option name="ENV_FILES" value="" />
@@ -140,19 +139,70 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_demo1.test_crossBrowser" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonTesting" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytestsDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Basics" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_demo1.test_crossBrowser&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Basics/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="upload (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonTesting" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Selenium" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Selenium/upload.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="upload" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonTesting" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FIles" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\KranthiKumarPanda\PycharmProjects\PythonTesting\Selenium\upload.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests for test_fixtureData.TestExample2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -167,21 +217,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_fixtureData.TestExample2&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_fixtureDemo.TestExample" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="PythonTesting" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytestsDemo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_fixtureDemo.TestExample&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -200,28 +235,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_logging.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="PythonTesting" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytestsDemo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/pytestsDemo/test_logging.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.upload (1)" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.upload" />
         <item itemvalue="Python tests.Python tests for test_fixtureData.TestExample2" />
         <item itemvalue="Python tests.Python tests for test_logging.test_loggingDemo" />
-        <item itemvalue="Python tests.Python tests for test_demo1.test_crossBrowser" />
-        <item itemvalue="Python tests.Python tests for test_fixtureDemo.TestExample" />
-        <item itemvalue="Python tests.Python tests in test_logging.py" />
       </list>
     </recent_temporary>
   </component>
@@ -369,7 +389,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712348030081</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Completed creating logger class and implement inheritance -&gt; DRY principle to reuse&#10;logs in html report and correct logname called in getLogger">
+      <option name="closed" value="true" />
+      <created>1712583111055</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1712583111055</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -388,6 +416,17 @@
     <MESSAGE value="Miscellaneous: Handling Javascript Executor, &#10;Handling Web Tables - sorting, assertions &amp; debug mode&#10;Chrome Options &quot;--headless&quot; &quot;--disable-gpu&quot; &quot;--ignore-certificate-errors&quot; &quot;--start-maximized&quot;" />
     <MESSAGE value="e2e test case for ecommerce page&#10;url &quot;https://rahulshettyacademy.com/angularpractice/&quot;&#10;click shop&#10;search a product name - blackberry,&#10;add to cart&#10;checkout&#10;search country and select India&#10;Purchase and assert Success" />
     <MESSAGE value="Completed&#10;Pytest and its advantages&#10;-Running Pytests from Terminal with different command flags&#10;-run selected Pytests from set of Tests&#10;-Grouping tests with pytest marks to run selected group&#10;What are fixtures and their importance in pytest framework&#10;-Importance of Conftest file &amp; Scope of fixtures for building Generic fixtures&#10;-Introduction to Data driven Fixtures to load data into tests&#10;-Parameterizing test with multiple data sets using Fixtures&#10;-Generating HTML reports for Pytest Testcases" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed&#10;Pytest and its advantages&#10;-Running Pytests from Terminal with different command flags&#10;-run selected Pytests from set of Tests&#10;-Grouping tests with pytest marks to run selected group&#10;What are fixtures and their importance in pytest framework&#10;-Importance of Conftest file &amp; Scope of fixtures for building Generic fixtures&#10;-Introduction to Data driven Fixtures to load data into tests&#10;-Parameterizing test with multiple data sets using Fixtures&#10;-Generating HTML reports for Pytest Testcases" />
+    <MESSAGE value="Completed creating logger class and implement inheritance -&gt; DRY principle to reuse&#10;logs in html report and correct logname called in getLogger" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed creating logger class and implement inheritance -&gt; DRY principle to reuse&#10;logs in html report and correct logname called in getLogger" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Selenium/actionDemo.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
